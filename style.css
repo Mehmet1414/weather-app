@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #454545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container {
+  width: 500px;
+  max-width: 600px;
+  max-height: 75vh;
+  padding: 30px;
+  margin-top: 12.5vh;
+  background-image: url(./images/Download.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.search input {
+  width: 70%;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: #454545;
+  font-size: 16px;
+  font-weight: 300;
+  caret-color:orangered ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.error{
+  padding:10px 30px 0;
+  font-size: 14px;
+  color: #fff;
+  display: none;
+}
+
+.weather{
+  display: none;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+.img img {
+  width: 16px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.main h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+.main p {
+  font-size: 40px;
+}
+.main-img {
+  width: 150px;
+  height: 150px;
+}
+.main img {
+  width: 100%;
+}
+.bottom {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-left,
+.bottom-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+.bottom p {
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.bottom img {
+  width: 40px;
+}
+.bottom-right-info p small {
+  font-size: 16px;
+}
+
+
+@media (max-width: 600px) {
+  .main-container {
+    width: 400px;
+  }
+  .bottom {
+    padding: 0;
+  }
+}
