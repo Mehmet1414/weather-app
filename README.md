@@ -14,7 +14,7 @@ Bu bir gelistirme Projesidir
 
 ## Demo
 
-<img src="./imagas/video11.gif"></img>
+<img src="./images/video11.gif"></img>
 
 
 ## Authors
